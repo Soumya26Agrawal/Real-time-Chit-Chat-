@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime ChatRoom</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <img class="logo" src="logo.png" alt="ChatRoom logo">
+        <h1>Welcome to Virtual Talk Room</h1>
+
+    </div>
+
+    <div class="chatbox">
+        <div class="right message">Hi mumma, I love you!</div>
+        <div class="left message"> Hi beta, I love u too! </div>
+    </div>
+    
+
+    <form action="#" id="form">
+        <input id="inputField" class="input" type="text" name="message" placeholder="Enter your message:">
+        <button class="btn">Send</button>
+    </form>
+</body>
+</html>
+
+
